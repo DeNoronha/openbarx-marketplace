@@ -6,9 +6,10 @@ Usage: python3 tools/validate.py [--fetch]   (--fetch also downloads each item a
 import hashlib, json, os, re, sys, urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-KINDS = {"widget", "bar-app", "hotkey-pack"}
+KINDS = {"widget", "bar-app", "cube-card", "screensaver", "hotkey-pack"}
 REQUIRED = ["id", "kind", "name", "version", "summary", "publisher", "license"]
-PER_KIND = {"widget": ["format", "targets", "download", "sha256", "source"], "hotkey-pack": ["download", "sha256", "actions", "platform"]}
+PER_KIND = {"widget": ["format", "targets", "download", "sha256", "source"], "hotkey-pack": ["download", "sha256", "actions", "platform"],
+            "screensaver": ["download", "sha256"]}
 
 def main():
     errors = []
@@ -23,6 +24,8 @@ def main():
         if not re.fullmatch(r"[a-z0-9]+(\.[A-Za-z0-9_-]+)+", item.get("id", "")): errors.append(f"{where}: id is not reverse-DNS")
         if item.get("id") in seen: errors.append(f"{where}: duplicate id")
         seen.add(item.get("id"))
+        for img in ("icon", "banner"):
+            if item.get(img) and not item[img].startswith("https://"): errors.append(f"{where}: {img} must be https")
         if "sha256" in item and not re.fullmatch(r"[0-9a-f]{64}", item["sha256"]): errors.append(f"{where}: sha256 is not 64 hex digits")
         if "--fetch" in sys.argv and item.get("download"):
             data = urllib.request.urlopen(item["download"], timeout=30).read()

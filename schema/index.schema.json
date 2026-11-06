@@ -3,44 +3,200 @@
   "$id": "https://github.com/DeNoronha/openbarx-marketplace/schema/index.schema.json",
   "title": "OpenBarX marketplace index, format 1",
   "type": "object",
-  "required": ["format", "name", "updated", "items"],
+  "required": [
+    "format",
+    "name",
+    "updated",
+    "items"
+  ],
   "properties": {
-    "format": { "const": 1 },
-    "name": { "type": "string" },
-    "updated": { "type": "string", "format": "date" },
-    "description": { "type": "string" },
-    "items": { "type": "array", "items": { "$ref": "#/$defs/item" } }
+    "format": {
+      "const": 1
+    },
+    "name": {
+      "type": "string"
+    },
+    "updated": {
+      "type": "string",
+      "format": "date"
+    },
+    "description": {
+      "type": "string"
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/item"
+      }
+    }
   },
   "$defs": {
     "item": {
       "type": "object",
-      "required": ["id", "kind", "name", "version", "summary", "publisher", "license"],
+      "required": [
+        "id",
+        "kind",
+        "name",
+        "version",
+        "summary",
+        "publisher",
+        "license"
+      ],
       "properties": {
-        "id": { "type": "string", "pattern": "^[a-z0-9]+(\\.[A-Za-z0-9_-]+)+$" },
-        "kind": { "enum": ["widget", "bar-app", "hotkey-pack"] },
-        "name": { "type": "string", "minLength": 1 },
-        "version": { "type": "string" },
-        "summary": { "type": "string" },
-        "publisher": { "type": "string" },
-        "license": { "type": "string" },
-        "format": { "type": "integer", "description": "widgets: the widget format version (docs/widget-format.md)" },
-        "targets": { "type": "array", "items": { "type": "string" } },
-        "download": { "type": "string", "format": "uri" },
-        "sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
-        "source": { "type": "string" },
-        "homepage": { "type": "string" },
-        "icon": { "type": "string" },
-        "preview": { "type": "array", "items": { "type": "string" } },
-        "distribution": { "enum": ["download", "bundled-with-deckhand"] },
-        "requires": { "type": "object" },
-        "buttons": { "type": "integer" },
-        "actions": { "type": "array", "items": { "enum": ["hotkeys", "open-website", "type-text"] } },
-        "platform": { "enum": ["any", "windows", "macos"] },
-        "vendorIdentifier": { "type": "string" }
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(\\.[A-Za-z0-9_-]+)+$"
+        },
+        "kind": {
+          "enum": [
+            "widget",
+            "bar-app",
+            "cube-card",
+            "screensaver",
+            "hotkey-pack"
+          ]
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "version": {
+          "type": "string"
+        },
+        "summary": {
+          "type": "string"
+        },
+        "publisher": {
+          "type": "string"
+        },
+        "license": {
+          "type": "string"
+        },
+        "format": {
+          "type": "integer",
+          "description": "widgets: the widget format version (docs/widget-format.md)"
+        },
+        "targets": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "download": {
+          "type": "string",
+          "format": "uri"
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "source": {
+          "type": "string"
+        },
+        "homepage": {
+          "type": "string"
+        },
+        "icon": {
+          "type": "string"
+        },
+        "preview": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "distribution": {
+          "enum": [
+            "download",
+            "bundled-with-deckhand",
+            "vendor-store"
+          ]
+        },
+        "requires": {
+          "type": "object"
+        },
+        "buttons": {
+          "type": "integer"
+        },
+        "actions": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "hotkeys",
+              "open-website",
+              "type-text"
+            ]
+          }
+        },
+        "platform": {
+          "enum": [
+            "any",
+            "windows",
+            "macos"
+          ]
+        },
+        "vendorIdentifier": {
+          "type": "string"
+        },
+        "banner": {
+          "type": "string",
+          "description": "a wide picture for the store (https)"
+        },
+        "category": {
+          "type": "string"
+        }
       },
       "allOf": [
-        { "if": { "properties": { "kind": { "const": "widget" } } }, "then": { "required": ["format", "targets", "download", "sha256", "source"] } },
-        { "if": { "properties": { "kind": { "const": "hotkey-pack" } } }, "then": { "required": ["download", "sha256", "actions", "platform"] } }
+        {
+          "if": {
+            "properties": {
+              "kind": {
+                "const": "widget"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "format",
+              "targets",
+              "download",
+              "sha256",
+              "source"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "kind": {
+                "const": "hotkey-pack"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "download",
+              "sha256",
+              "actions",
+              "platform"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "kind": {
+                "const": "screensaver"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "download",
+              "sha256"
+            ]
+          }
+        }
       ]
     }
   }

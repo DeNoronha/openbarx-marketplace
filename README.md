@@ -7,10 +7,12 @@ One index of widgets, bar apps and hotkey packs for the Sanytron UltraBar X, sha
 | Kind | What it is | Where the file lives |
 |---|---|---|
 | `widget` | A card drawn from a small web page, in the shared [widget format](docs/widget-format.md). | `widgets/<id>/` in this repo, released as a zip. |
-| `bar-app` | An Android app that runs on the CoreBar itself. | Its own project; Deckhand's are bundled with Deckhand. |
+| `bar-app` | An Android app that runs on the CoreBar itself. | Its own project; Deckhand's are bundled with Deckhand; the vendor's are installed by the bar from the vendor's cloud. |
+| `cube-card` | A card Deckhand draws for the VivoCube (built in, native). | Bundled with Deckhand. |
+| `screensaver` | A screensaver app for the CoreBar. | The vendor's own download, listed with its checksum. |
 | `hotkey-pack` | A set of buttons for a DotKey/KnobKey page: keyboard shortcuts, websites or text. | The vendor's own download. Listed here with its checksum, **not copied**. |
 
-The nine official hotkey packs are the vendor's files. This index only describes them and points at the vendor's download; whether they keep serving them is up to the vendor. The packs' keyboard shortcuts are written for Windows (Ctrl, the Windows key); a macOS client has to translate them.
+The vendor's apps, screensavers and nine hotkey packs are the vendor's files. This index only describes them and points at the vendor's download; whether they keep serving them is up to the vendor. The packs' keyboard shortcuts are written for Windows (Ctrl, the Windows key); a macOS client has to translate them.
 
 ## Files
 

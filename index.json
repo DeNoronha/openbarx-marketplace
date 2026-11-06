@@ -11,7 +11,10 @@
       "version": "2.0",
       "summary": "Your Mac, live, across the whole bar: CPU, memory, disk and network, refreshed every second.",
       "publisher": "De Noronha Consulting",
+      "category": "Productivity",
       "license": "MIT",
+      "icon": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/icons/monitor.png",
+      "banner": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/screens/bar-monitor.png",
       "distribution": "bundled-with-deckhand",
       "requires": {
         "wifiAdb": true
@@ -26,7 +29,10 @@
       "version": "2.0",
       "summary": "Which terminal needs you. Every Claude Code session on the Mac as a card; the ones waiting for an answer pulse orange.",
       "publisher": "De Noronha Consulting",
+      "category": "Development",
       "license": "MIT",
+      "icon": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/icons/claude.png",
+      "banner": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/screens/bar-claude.png",
       "distribution": "bundled-with-deckhand",
       "requires": {
         "wifiAdb": true
@@ -41,7 +47,10 @@
       "version": "2.0",
       "summary": "Up to five coins in your currency with a sparkline of the day. Prices from CoinGecko through Deckhand, no API key.",
       "publisher": "De Noronha Consulting",
+      "category": "Finance",
       "license": "MIT",
+      "icon": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/icons/crypto.png",
+      "banner": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/screens/bar-crypto.png",
       "distribution": "bundled-with-deckhand",
       "requires": {
         "wifiAdb": true
@@ -56,7 +65,10 @@
       "version": "2.0",
       "summary": "Now plus three days for the Mac's location, from Open-Meteo. No account, no key.",
       "publisher": "De Noronha Consulting",
+      "category": "Weather",
       "license": "MIT",
+      "icon": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/icons/weather.png",
+      "banner": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/screens/bar-weather.png",
       "distribution": "bundled-with-deckhand",
       "requires": {
         "wifiAdb": true
@@ -71,7 +83,10 @@
       "version": "2.0",
       "summary": "Apple Music on the bar: album art, title, artist, and transport buttons that work from the touch screen.",
       "publisher": "De Noronha Consulting",
+      "category": "Music",
       "license": "MIT",
+      "icon": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/icons/music.png",
+      "banner": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/screens/bar-music.png",
       "distribution": "bundled-with-deckhand",
       "requires": {
         "wifiAdb": true
@@ -86,7 +101,10 @@
       "version": "2.0",
       "summary": "Today, tomorrow and the day after from the Mac's calendars, with the calendar colours you already know.",
       "publisher": "De Noronha Consulting",
+      "category": "Productivity",
       "license": "MIT",
+      "icon": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/icons/calendar.png",
+      "banner": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/screens/bar-calendar.png",
       "distribution": "bundled-with-deckhand",
       "requires": {
         "wifiAdb": true
@@ -101,7 +119,10 @@
       "version": "2.0",
       "summary": "Aircraft overhead within a radius you set: callsign, airline, route, altitude, speed, distance and bearing on a small radar. ADS-B data from adsb.lol, routes from adsbdb, no key.",
       "publisher": "De Noronha Consulting",
+      "category": "Travel",
       "license": "MIT",
+      "icon": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/icons/flights.png",
+      "banner": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/screens/bar-flights.png",
       "distribution": "bundled-with-deckhand",
       "requires": {
         "wifiAdb": true
@@ -116,7 +137,10 @@
       "version": "2.0",
       "summary": "Sunrise, sunset, solar noon, golden hour, twilight and day length on a sun arc, and the moon drawn in its current phase with rise, set and the next full and new moon. Computed on the Mac.",
       "publisher": "De Noronha Consulting",
+      "category": "Science",
       "license": "MIT",
+      "icon": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/icons/sky.png",
+      "banner": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/screens/bar-sky.png",
       "distribution": "bundled-with-deckhand",
       "requires": {
         "wifiAdb": true
@@ -131,7 +155,10 @@
       "version": "2.0",
       "summary": "The top headlines from CNN, or BBC, NYT, The Guardian, NOS or NU.nl, four at a time, rotating every fifteen seconds.",
       "publisher": "De Noronha Consulting",
+      "category": "News",
       "license": "MIT",
+      "icon": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/icons/news.png",
+      "banner": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/screens/bar-news.png",
       "distribution": "bundled-with-deckhand",
       "requires": {
         "wifiAdb": true
@@ -146,7 +173,10 @@
       "version": "2.0",
       "summary": "A Bible verse for the day from a list of well-known passages, in the World English Bible.",
       "publisher": "De Noronha Consulting",
+      "category": "Lifestyle",
       "license": "MIT",
+      "icon": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/icons/verse.png",
+      "banner": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/screens/bar-verse.png",
       "distribution": "bundled-with-deckhand",
       "requires": {
         "wifiAdb": true
@@ -161,13 +191,146 @@
       "version": "2.0",
       "summary": "Your open Linear issues, started work first, then by priority and due date, with overdue and due-this-week counts. Needs a personal Linear API key, stored on the Mac.",
       "publisher": "De Noronha Consulting",
+      "category": "Productivity",
       "license": "MIT",
+      "icon": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/icons/tasks.png",
+      "banner": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/screens/bar-tasks.png",
       "distribution": "bundled-with-deckhand",
       "requires": {
         "wifiAdb": true
       },
       "source": "https://github.com/DeNoronha/UltraWorkspaceMac/tree/main/UltraWorkspaceMac/android/DeckhandMonitor",
       "homepage": "https://denoronha.github.io/UltraWorkspaceMac/bar-apps/"
+    },
+    {
+      "id": "nl.denoronha.deckhand.home",
+      "kind": "bar-app",
+      "name": "Deckhand Home",
+      "version": "1.0",
+      "summary": "A home screen for the bar: clock, whether Deckhand is reachable, one tile per app, Settings and the bar's own launcher within reach.",
+      "publisher": "De Noronha Consulting",
+      "category": "Utilities",
+      "license": "MIT",
+      "icon": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/icons/home.png",
+      "banner": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/screens/bar-home.png",
+      "distribution": "bundled-with-deckhand",
+      "requires": {
+        "wifiAdb": true
+      },
+      "source": "https://github.com/DeNoronha/UltraWorkspaceMac/tree/main/UltraWorkspaceMac/android/DeckhandMonitor/home",
+      "homepage": "https://denoronha.github.io/UltraWorkspaceMac/manual/"
+    },
+    {
+      "id": "nl.denoronha.deckhand.card.weather",
+      "kind": "cube-card",
+      "name": "Weather",
+      "version": "0.3",
+      "summary": "Conditions and temperature on the VivoCube.",
+      "publisher": "De Noronha Consulting",
+      "category": "VivoCube",
+      "license": "MIT",
+      "targets": [
+        "vivocube"
+      ],
+      "distribution": "bundled-with-deckhand",
+      "source": "https://github.com/DeNoronha/UltraWorkspaceMac/tree/main/UltraWorkspaceMac/Sources/UltraWorkspaceApp/Widgets",
+      "homepage": "https://denoronha.github.io/UltraWorkspaceMac/manual/"
+    },
+    {
+      "id": "nl.denoronha.deckhand.card.music",
+      "kind": "cube-card",
+      "name": "Music",
+      "version": "0.3",
+      "summary": "Album art of what is playing.",
+      "publisher": "De Noronha Consulting",
+      "category": "VivoCube",
+      "license": "MIT",
+      "targets": [
+        "vivocube"
+      ],
+      "distribution": "bundled-with-deckhand",
+      "source": "https://github.com/DeNoronha/UltraWorkspaceMac/tree/main/UltraWorkspaceMac/Sources/UltraWorkspaceApp/Widgets",
+      "homepage": "https://denoronha.github.io/UltraWorkspaceMac/manual/"
+    },
+    {
+      "id": "nl.denoronha.deckhand.card.claude",
+      "kind": "cube-card",
+      "name": "Claude Code",
+      "version": "0.3",
+      "summary": "Sessions and tokens today.",
+      "publisher": "De Noronha Consulting",
+      "category": "VivoCube",
+      "license": "MIT",
+      "targets": [
+        "vivocube"
+      ],
+      "distribution": "bundled-with-deckhand",
+      "source": "https://github.com/DeNoronha/UltraWorkspaceMac/tree/main/UltraWorkspaceMac/Sources/UltraWorkspaceApp/Widgets",
+      "homepage": "https://denoronha.github.io/UltraWorkspaceMac/manual/"
+    },
+    {
+      "id": "nl.denoronha.deckhand.card.crypto",
+      "kind": "cube-card",
+      "name": "Crypto",
+      "version": "0.3",
+      "summary": "One card per coin, up to five.",
+      "publisher": "De Noronha Consulting",
+      "category": "VivoCube",
+      "license": "MIT",
+      "targets": [
+        "vivocube"
+      ],
+      "distribution": "bundled-with-deckhand",
+      "source": "https://github.com/DeNoronha/UltraWorkspaceMac/tree/main/UltraWorkspaceMac/Sources/UltraWorkspaceApp/Widgets",
+      "homepage": "https://denoronha.github.io/UltraWorkspaceMac/manual/"
+    },
+    {
+      "id": "nl.denoronha.deckhand.card.calendar",
+      "kind": "cube-card",
+      "name": "Calendar",
+      "version": "0.3",
+      "summary": "The next events.",
+      "publisher": "De Noronha Consulting",
+      "category": "VivoCube",
+      "license": "MIT",
+      "targets": [
+        "vivocube"
+      ],
+      "distribution": "bundled-with-deckhand",
+      "source": "https://github.com/DeNoronha/UltraWorkspaceMac/tree/main/UltraWorkspaceMac/Sources/UltraWorkspaceApp/Widgets",
+      "homepage": "https://denoronha.github.io/UltraWorkspaceMac/manual/"
+    },
+    {
+      "id": "nl.denoronha.deckhand.card.date",
+      "kind": "cube-card",
+      "name": "Date",
+      "version": "0.3",
+      "summary": "Weekday and date, large.",
+      "publisher": "De Noronha Consulting",
+      "category": "VivoCube",
+      "license": "MIT",
+      "targets": [
+        "vivocube"
+      ],
+      "distribution": "bundled-with-deckhand",
+      "source": "https://github.com/DeNoronha/UltraWorkspaceMac/tree/main/UltraWorkspaceMac/Sources/UltraWorkspaceApp/Widgets",
+      "homepage": "https://denoronha.github.io/UltraWorkspaceMac/manual/"
+    },
+    {
+      "id": "nl.denoronha.deckhand.card.picture",
+      "kind": "cube-card",
+      "name": "Picture",
+      "version": "0.3",
+      "summary": "Any image, scaled to 240 × 240.",
+      "publisher": "De Noronha Consulting",
+      "category": "VivoCube",
+      "license": "MIT",
+      "targets": [
+        "vivocube"
+      ],
+      "distribution": "bundled-with-deckhand",
+      "source": "https://github.com/DeNoronha/UltraWorkspaceMac/tree/main/UltraWorkspaceMac/Sources/UltraWorkspaceApp/Widgets",
+      "homepage": "https://denoronha.github.io/UltraWorkspaceMac/manual/"
     },
     {
       "id": "com.sanytron.plugin.zG0pN6aV1pF6yM5uX2qV0cH1cC0aK5gJ",
@@ -184,12 +347,11 @@
       "platform": "windows",
       "download": "https://sslcdn.lifex360.com/plugin/2026/08/8mcrt364xc84gxwdqxmj.zip",
       "sha256": "a45d7a5afdcd02b20f03b3e91513bdb32f4623289676eaeac0a2806031f5b858",
-      "icon": "http://cdn.lifex360.com/icon/2026/05/3l5gro08air6lnzf6z55.png",
-      "preview": [
-        "https://sslcdn.lifex360.com/icon/2026/08/0zny5xgimaatcjfe5luj.png"
-      ],
+      "icon": "https://sslcdn.lifex360.com/icon/2026/05/3l5gro08air6lnzf6z55.png",
       "vendorIdentifier": "zG0pN6aV1pF6yM5uX2qV0cH1cC0aK5gJ",
-      "source": "the vendor's plugin catalogue"
+      "source": "the vendor's plugin catalogue",
+      "banner": "https://sslcdn.lifex360.com/icon/2026/08/0zny5xgimaatcjfe5luj.png",
+      "category": "Shortcuts"
     },
     {
       "id": "com.sanytron.plugin.yN3uV9aO0eO7gT5yX0bP9tQ1jR5pQ3iJ",
@@ -207,11 +369,10 @@
       "download": "https://sslcdn.lifex360.com/plugin/2026/08/c3gylfm27yglu6pp2krd.zip",
       "sha256": "b2db2a4501e6f69ab5da564012705e26bae9fbb6368754cb12d3c6af17534472",
       "icon": "https://sslcdn.lifex360.com/icon/2026/07/lwp7zd73kpmqdvkq2qpi.png",
-      "preview": [
-        "https://sslcdn.lifex360.com/icon/2026/08/i8a96whxtaw6aq58ijux.png"
-      ],
       "vendorIdentifier": "yN3uV9aO0eO7gT5yX0bP9tQ1jR5pQ3iJ",
-      "source": "the vendor's plugin catalogue"
+      "source": "the vendor's plugin catalogue",
+      "banner": "https://sslcdn.lifex360.com/icon/2026/08/i8a96whxtaw6aq58ijux.png",
+      "category": "Shortcuts"
     },
     {
       "id": "com.sanytron.plugin.jF0hT7nS0eA9zY6hA3mL1zX0sI1iY5sD",
@@ -229,11 +390,10 @@
       "download": "https://sslcdn.lifex360.com/plugin/2026/08/dz0oh4n5grib54qr22q7.zip",
       "sha256": "6ebd58cfe1656bf3fa47047fd68027ccfac671c60fe28c37f2fe9fda2deca5ab",
       "icon": "https://sslcdn.lifex360.com/attach/2026/08/ojbcydnmugypsvdi33qj.png",
-      "preview": [
-        "https://sslcdn.lifex360.com/icon/2026/08/2hrw6e57drwvdj5r4929.png"
-      ],
       "vendorIdentifier": "jF0hT7nS0eA9zY6hA3mL1zX0sI1iY5sD",
-      "source": "the vendor's plugin catalogue"
+      "source": "the vendor's plugin catalogue",
+      "banner": "https://sslcdn.lifex360.com/icon/2026/08/2hrw6e57drwvdj5r4929.png",
+      "category": "Websites"
     },
     {
       "id": "com.sanytron.plugin.yR8tG4sF8fG0eF0cE9hA6tF1fS7vJ6bU",
@@ -251,11 +411,10 @@
       "download": "https://sslcdn.lifex360.com/plugin/2026/08/y5oobhuc11krn91akd5g.zip",
       "sha256": "97c59f7f7e6e8480c5a7afe92bd173b8b8fa67f418de4d01b28b2abeeab6124d",
       "icon": "https://sslcdn.lifex360.com/icon/2026/07/lgs7qcyrvbyzro0pvdox.png",
-      "preview": [
-        "https://sslcdn.lifex360.com/icon/2026/08/y1vz92linns59wg7q3ez.png"
-      ],
       "vendorIdentifier": "yR8tG4sF8fG0eF0cE9hA6tF1fS7vJ6bU",
-      "source": "the vendor's plugin catalogue"
+      "source": "the vendor's plugin catalogue",
+      "banner": "https://sslcdn.lifex360.com/icon/2026/08/y1vz92linns59wg7q3ez.png",
+      "category": "Shortcuts"
     },
     {
       "id": "com.sanytron.plugin.wM2xD0nG9vO2qG9vM5eA8kD1hG9yH8gU",
@@ -273,11 +432,10 @@
       "download": "https://sslcdn.lifex360.com/plugin/2026/08/s7n90ak8mdnkmlxsq63n.zip",
       "sha256": "e19838c677ea1926427ff1683a3bc3b3ac6974ca7d4f6febb177703819476f9e",
       "icon": "https://sslcdn.lifex360.com/attach/2026/08/7a6lbnpudo6iqwbrgo4p.png",
-      "preview": [
-        "https://sslcdn.lifex360.com/icon/2026/08/72jnl42n4a9goflwr6fu.png"
-      ],
       "vendorIdentifier": "wM2xD0nG9vO2qG9vM5eA8kD1hG9yH8gU",
-      "source": "the vendor's plugin catalogue"
+      "source": "the vendor's plugin catalogue",
+      "banner": "https://sslcdn.lifex360.com/icon/2026/08/72jnl42n4a9goflwr6fu.png",
+      "category": "Shortcuts"
     },
     {
       "id": "com.sanytron.plugin.iG7bD1gV5zN7oH6rX4tA0xJ7wC5mS3kO",
@@ -295,11 +453,10 @@
       "download": "https://sslcdn.lifex360.com/plugin/2026/08/9akxxdx6gso2kytak6aq.zip",
       "sha256": "0e24a7da0b9828cb5441fc9cff585fcb7c2984211f3446bea953383d6ad605e5",
       "icon": "https://sslcdn.lifex360.com/icon/2026/07/rm58ypj3xj2iyqlgz2wp.png",
-      "preview": [
-        "https://sslcdn.lifex360.com/icon/2026/08/kdtuhh7w86kud2121jsk.png"
-      ],
       "vendorIdentifier": "iG7bD1gV5zN7oH6rX4tA0xJ7wC5mS3kO",
-      "source": "the vendor's plugin catalogue"
+      "source": "the vendor's plugin catalogue",
+      "banner": "https://sslcdn.lifex360.com/icon/2026/08/kdtuhh7w86kud2121jsk.png",
+      "category": "Text"
     },
     {
       "id": "com.sanytron.plugin.qY4yG3nZ5bN1lH7zS9qH6pY5bT7iL5cE",
@@ -317,11 +474,10 @@
       "download": "https://sslcdn.lifex360.com/plugin/2026/08/ig6c4sg9oq68k94iqzo4.zip",
       "sha256": "eb4eeca9f52f1a9d105192615db1799dc82f7221c13b5bf9e1634943b892f497",
       "icon": "https://sslcdn.lifex360.com/attach/2026/08/2a0jpuxm6ic7igd9qq0s.png",
-      "preview": [
-        "https://sslcdn.lifex360.com/icon/2026/08/vfgflwv663lafqy6a3lm.png"
-      ],
       "vendorIdentifier": "qY4yG3nZ5bN1lH7zS9qH6pY5bT7iL5cE",
-      "source": "the vendor's plugin catalogue"
+      "source": "the vendor's plugin catalogue",
+      "banner": "https://sslcdn.lifex360.com/icon/2026/08/vfgflwv663lafqy6a3lm.png",
+      "category": "Shortcuts"
     },
     {
       "id": "com.sanytron.plugin.fX9zP3iD9bC0oV9mA1dL8uA7nY7lX6xO",
@@ -339,11 +495,10 @@
       "download": "https://sslcdn.lifex360.com/plugin/2026/08/xzyq36dxnhrwge5zmmy0.zip",
       "sha256": "e8e705eef55caa87aca0da60d87658db713de442e9b46e5cde96a6bbe319f768",
       "icon": "https://sslcdn.lifex360.com/attach/2026/08/wv90p61h3qzpplwg0yxn.png",
-      "preview": [
-        "https://sslcdn.lifex360.com/icon/2026/08/nuosha4kttvux2vtuyow.png"
-      ],
       "vendorIdentifier": "fX9zP3iD9bC0oV9mA1dL8uA7nY7lX6xO",
-      "source": "the vendor's plugin catalogue"
+      "source": "the vendor's plugin catalogue",
+      "banner": "https://sslcdn.lifex360.com/icon/2026/08/nuosha4kttvux2vtuyow.png",
+      "category": "Shortcuts"
     },
     {
       "id": "com.sanytron.plugin.jY9xS9aV4tK8fM9jT8zG0oA5wY7zC1lB",
@@ -361,11 +516,220 @@
       "download": "https://sslcdn.lifex360.com/plugin/2026/08/ulox4u92dmhjver67he3.zip",
       "sha256": "40492d862a7e6d003dba4301df9f4ee8163a7b9d7b50660ddcc212abce916636",
       "icon": "https://sslcdn.lifex360.com/attach/2026/08/jo6h4kxb36n0iibxn9bi.png",
-      "preview": [
-        "https://sslcdn.lifex360.com/icon/2026/08/xu9o1zxtukn9ghedx3uo.png"
-      ],
       "vendorIdentifier": "jY9xS9aV4tK8fM9jT8zG0oA5wY7zC1lB",
-      "source": "the vendor's plugin catalogue"
+      "source": "the vendor's plugin catalogue",
+      "banner": "https://sslcdn.lifex360.com/icon/2026/08/xu9o1zxtukn9ghedx3uo.png",
+      "category": "Websites"
+    },
+    {
+      "id": "com.ultrabar.sonos",
+      "kind": "bar-app",
+      "name": "Sonos",
+      "version": "1.0.1",
+      "summary": "Sanytron's Sonos app for the CoreBar.",
+      "publisher": "Sanytron",
+      "category": "Sanytron apps",
+      "license": "proprietary (served by the vendor; listed here, not copied)",
+      "icon": "https://cdn-us.lifex360.com/app/icon/20261104/8d1b866b2adb4d1cb446b6ebf8abdf0d.png",
+      "download": "http://cdn-us.lifex360.com/app/apk/20261105/48e55cefcdd748459178eda8061c7862.apk",
+      "sha256": "e6db264868e6dfbe0c0a2c22f64079034266303cb9dbaf2488f7a5435f17ef11",
+      "distribution": "vendor-store",
+      "source": "the vendor's app catalogue (installed by the bar from the vendor's cloud)"
+    },
+    {
+      "id": "com.ultrabar.homeassistant",
+      "kind": "bar-app",
+      "name": "HomeAssistant",
+      "version": "1.0.4",
+      "summary": "Sanytron's Home Assistant app for the CoreBar.",
+      "publisher": "Sanytron",
+      "category": "Sanytron apps",
+      "license": "proprietary (served by the vendor; listed here, not copied)",
+      "icon": "https://sslcdn.lifex360.com/wallpaper/2025/04/ZOF6EBI5OEJUMBWS74WO.png",
+      "download": "https://sslcdn.lifex360.com/attach/2026/10/4tdl6hya9f2fa55vymx3.apk",
+      "sha256": "ea1e0ef3c78626fd0e138ad1127ef8ae100f961fd54019c4391bcd23780d18d9",
+      "distribution": "vendor-store",
+      "source": "the vendor's app catalogue (installed by the bar from the vendor's cloud)"
+    },
+    {
+      "id": "com.ultrabar.whitenoise",
+      "kind": "bar-app",
+      "name": "Whitenoise",
+      "version": "1.0.5",
+      "summary": "Sanytron's white-noise player for the CoreBar.",
+      "publisher": "Sanytron",
+      "category": "Sanytron apps",
+      "license": "proprietary (served by the vendor; listed here, not copied)",
+      "icon": "https://sslcdn.lifex360.com/attach/2026/08/hs2vm7cbwsu9u4f5mbw9.png",
+      "download": "https://sslcdn.lifex360.com/attach/2026/10/t6vpadddk7egq4hzg0ff.apk",
+      "sha256": "24e9b46c35e72c1c48ad51d896df8c44e2db381355935fed9fca9bc409e85dc6",
+      "distribution": "vendor-store",
+      "source": "the vendor's app catalogue (installed by the bar from the vendor's cloud)"
+    },
+    {
+      "id": "com.ultrabar.calculator",
+      "kind": "bar-app",
+      "name": "Calculator",
+      "version": "1.0.2",
+      "summary": "Sanytron's calculator for the CoreBar.",
+      "publisher": "Sanytron",
+      "category": "Sanytron apps",
+      "license": "proprietary (served by the vendor; listed here, not copied)",
+      "icon": "https://sslcdn.lifex360.com/attach/2026/08/vnajr0hu9y4uu1d9i0uf.png",
+      "download": "https://sslcdn.lifex360.com/attach/2026/10/ailerxaf6nrkgdi38tn4.apk",
+      "sha256": "a506c566a405a3f6f75e10ed7eeaf35a78d8a0178226fb8aecb13d5b126af0cb",
+      "distribution": "vendor-store",
+      "source": "the vendor's app catalogue (installed by the bar from the vendor's cloud)"
+    },
+    {
+      "id": "com.ultrabar.alarmclock",
+      "kind": "bar-app",
+      "name": "Alarmclock",
+      "version": "1.0.2",
+      "summary": "Sanytron's alarm clock for the CoreBar.",
+      "publisher": "Sanytron",
+      "category": "Sanytron apps",
+      "license": "proprietary (served by the vendor; listed here, not copied)",
+      "icon": "https://sslcdn.lifex360.com/attach/2026/08/xmvhth8nbb20ru284qe1.png",
+      "download": "https://sslcdn.lifex360.com/attach/2026/10/0jomzquytr2c4gsqmudv.apk",
+      "sha256": "7df4dd2f8c5db7a68df77191ca293419720023ad3d463894f640d8b9d9499231",
+      "distribution": "vendor-store",
+      "source": "the vendor's app catalogue (installed by the bar from the vendor's cloud)"
+    },
+    {
+      "id": "com.ultrabar.filemanager",
+      "kind": "bar-app",
+      "name": "UltraBar Files",
+      "version": "1.2",
+      "summary": "Sanytron's file manager for the CoreBar.",
+      "publisher": "Sanytron",
+      "category": "Sanytron apps",
+      "license": "proprietary (served by the vendor; listed here, not copied)",
+      "icon": "https://sslcdn.lifex360.com/attach/2026/08/3ff69uvnbq385wn3go5p.png",
+      "download": "https://sslcdn.lifex360.com/attach/2026/08/xfbz2zj6xfayoi6q9qss.apk",
+      "sha256": "f5060e282bb9ac23ee15da82556a8584b5071f522804b7d54c177a00e7b7ae34",
+      "distribution": "vendor-store",
+      "source": "the vendor's app catalogue (installed by the bar from the vendor's cloud)"
+    },
+    {
+      "id": "com.ultrabar.notes",
+      "kind": "bar-app",
+      "name": "UltraNotes",
+      "version": "1.4.14",
+      "summary": "Sanytron's notes app for the CoreBar.",
+      "publisher": "Sanytron",
+      "category": "Sanytron apps",
+      "license": "proprietary (served by the vendor; listed here, not copied)",
+      "icon": "https://sslcdn.lifex360.com/attach/2026/08/x4xrgm90edbhxnyynt7m.png",
+      "download": "https://sslcdn.lifex360.com/attach/2026/10/pc8og7k21kr6w04ber8y.apk",
+      "sha256": "1df4d7fdab68a6f0668a5d8a56588bb998b96d1b7457dc9c496dfd6e9b646291",
+      "distribution": "vendor-store",
+      "source": "the vendor's app catalogue (installed by the bar from the vendor's cloud)"
+    },
+    {
+      "id": "com.ultrabar.radio",
+      "kind": "bar-app",
+      "name": "UltraRadio",
+      "version": "1.7.1",
+      "summary": "Sanytron's internet radio for the CoreBar.",
+      "publisher": "Sanytron",
+      "category": "Sanytron apps",
+      "license": "proprietary (served by the vendor; listed here, not copied)",
+      "icon": "https://sslcdn.lifex360.com/attach/2026/08/4llh212un1n9z71avehn.png",
+      "download": "https://sslcdn.lifex360.com/attach/2026/10/l52317lq36l6784iuzf0.apk",
+      "sha256": "fbe3b06d5d3d1ff7b3e571650c2d2d3127e732fd83a75d4294d31948b9a51210",
+      "distribution": "vendor-store",
+      "source": "the vendor's app catalogue (installed by the bar from the vendor's cloud)"
+    },
+    {
+      "id": "com.ultraagent.shell",
+      "kind": "bar-app",
+      "name": "UltraAgent",
+      "version": "1.0",
+      "summary": "Sanytron's agent shell app for the CoreBar.",
+      "publisher": "Sanytron",
+      "category": "Sanytron apps",
+      "license": "proprietary (served by the vendor; listed here, not copied)",
+      "icon": "https://sslcdn.lifex360.com/attach/2026/09/dhqj3xgch6455ff3nf5m.png",
+      "download": "https://sslcdn.lifex360.com/attach/2026/10/exhenlo8om7zfhfokkob.apk",
+      "sha256": "94d88d996adcf126813d49393f427e3ef04c37389e31c81745882920d45e2bfb",
+      "distribution": "vendor-store",
+      "source": "the vendor's app catalogue (installed by the bar from the vendor's cloud)"
+    },
+    {
+      "id": "com.mamate.app",
+      "kind": "bar-app",
+      "name": "MAMate",
+      "version": "1.0.2",
+      "summary": "MAMate for the CoreBar, from Sanytron's app catalogue.",
+      "publisher": "Sanytron",
+      "category": "Sanytron apps",
+      "license": "proprietary (served by the vendor; listed here, not copied)",
+      "icon": "https://cdn-us.lifex360.com/app/icon/20261024/2ef6219b37904cc5b795091ffc77108e.png",
+      "download": "http://cdn-us.lifex360.com/app/apk/20261024/7ded62be697545218bfc86968221c11b.apk",
+      "sha256": "e790842a74a06e17d7c485d5c36a3dc6cd0629b9531183d8892a5904e4e8f794",
+      "distribution": "vendor-store",
+      "source": "the vendor's app catalogue (installed by the bar from the vendor's cloud)"
+    },
+    {
+      "id": "com.whale.screensaver",
+      "kind": "screensaver",
+      "name": "Whale",
+      "version": "1.0",
+      "summary": "A whale screensaver for the CoreBar.",
+      "publisher": "Sanytron",
+      "category": "Screensaver",
+      "license": "proprietary (served by the vendor; listed here, not copied)",
+      "icon": "https://sslcdn.lifex360.com/attach/2026/03/gqameyj7hp2gv4kwz9yf.jpg",
+      "download": "http://cdn.lifex360.com/attach/2026/03/rl505mlsiib62nnr3utg.apk",
+      "sha256": "d7018bcf860709e43394e5126eff8b2f40ff65476b5d43ea9b452cf22446c6f5",
+      "distribution": "vendor-store",
+      "source": "the vendor's app catalogue (installed by the bar from the vendor's cloud)"
+    },
+    {
+      "id": "com.racecar.screensaver",
+      "kind": "screensaver",
+      "name": "Spectrum Stream",
+      "version": "1.0",
+      "summary": "A spectrum-stream screensaver for the CoreBar.",
+      "publisher": "Sanytron",
+      "category": "Screensaver",
+      "license": "proprietary (served by the vendor; listed here, not copied)",
+      "icon": "https://sslcdn.lifex360.com/attach/2026/03/x7sbnosdbid38bmu9cx4.jpg",
+      "download": "http://cdn.lifex360.com/attach/2026/03/khcgfuhqhn3en0jomrjn.apk",
+      "sha256": "80af2cfc942610ae9406b65fb7cca7fc583453b4cc2113b1364e89a9133adf9e",
+      "distribution": "vendor-store",
+      "source": "the vendor's app catalogue (installed by the bar from the vendor's cloud)"
+    },
+    {
+      "id": "com.stellarring.screensaver",
+      "kind": "screensaver",
+      "name": "Black Hole",
+      "version": "1.0.1",
+      "summary": "A black-hole screensaver for the CoreBar.",
+      "publisher": "Sanytron",
+      "category": "Screensaver",
+      "license": "proprietary (served by the vendor; listed here, not copied)",
+      "icon": "https://sslcdn.lifex360.com/attach/2026/07/6670r04szl0x7nm7jmq4.png",
+      "download": "http://cdn.lifex360.com/attach/2026/07/geet3zk80rib1ta2n8ci.apk",
+      "sha256": "956061ba8d8660b257065772a0c0f98de1a26393ed50827883feafb9b21afe7d",
+      "distribution": "vendor-store",
+      "source": "the vendor's app catalogue (installed by the bar from the vendor's cloud)"
+    },
+    {
+      "id": "com.flip.screensaver",
+      "kind": "screensaver",
+      "name": "Flip Clock",
+      "version": "1.0.1",
+      "summary": "A flip-clock screensaver for the CoreBar.",
+      "publisher": "Sanytron",
+      "category": "Screensaver",
+      "license": "proprietary (served by the vendor; listed here, not copied)",
+      "icon": "https://sslcdn.lifex360.com/attach/2026/07/f7ptyrzp90pqqap166tf.png",
+      "download": "http://cdn.lifex360.com/attach/2026/07/imnf8hcu26rk9e99m06r.apk",
+      "sha256": "ad9e6522ed8ebd12ea6b931a26a051c638522ec18cb5495be233b7d894ccfdaa",
+      "distribution": "vendor-store",
+      "source": "the vendor's app catalogue (installed by the bar from the vendor's cloud)"
     }
   ]
 }
