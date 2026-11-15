@@ -329,6 +329,24 @@
       "homepage": "https://denoronha.github.io/UltraWorkspaceMac/bar-apps/"
     },
     {
+      "id": "nl.denoronha.deckhand.status",
+      "kind": "bar-app",
+      "name": "Cloud Status",
+      "version": "2.6",
+      "summary": "Is it them or me? Whether Microsoft 365, Azure, AWS, Google Cloud and Workspace, GitHub, Cloudflare, Slack and other services are up, from their official status pages; tap a service for what is going on. Runs on the bar; no account or key.",
+      "publisher": "De Noronha Consulting",
+      "category": "Development",
+      "license": "MIT",
+      "icon": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/icons/status.png",
+      "banner": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/screens/bar-status.png",
+      "distribution": "bundled-with-deckhand",
+      "requires": {
+        "wifiAdb": true
+      },
+      "source": "https://github.com/DeNoronha/UltraWorkspaceMac/tree/main/UltraWorkspaceMac/android/DeckhandMonitor",
+      "homepage": "https://denoronha.github.io/UltraWorkspaceMac/bar-apps/"
+    },
+    {
       "id": "nl.denoronha.deckhand.strava",
       "kind": "bar-app",
       "name": "Training",
