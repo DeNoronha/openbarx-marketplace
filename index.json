@@ -275,6 +275,42 @@
       "homepage": "https://denoronha.github.io/UltraWorkspaceMac/bar-apps/"
     },
     {
+      "id": "nl.denoronha.deckhand.earth",
+      "kind": "bar-app",
+      "name": "Earth",
+      "version": "2.6",
+      "summary": "The whole planet, live: a turning globe and a world map with the aircraft in the air, the satellites overhead with the ISS's track, the earthquakes of the last day and where it is night. Runs on the bar from open data; no key.",
+      "publisher": "De Noronha Consulting",
+      "category": "Science",
+      "license": "MIT",
+      "icon": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/icons/earth.png",
+      "banner": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/screens/bar-earth.png",
+      "distribution": "bundled-with-deckhand",
+      "requires": {
+        "wifiAdb": true
+      },
+      "source": "https://github.com/DeNoronha/UltraWorkspaceMac/tree/main/UltraWorkspaceMac/android/DeckhandMonitor",
+      "homepage": "https://denoronha.github.io/UltraWorkspaceMac/bar-apps/"
+    },
+    {
+      "id": "nl.denoronha.deckhand.seo",
+      "kind": "bar-app",
+      "name": "SEO",
+      "version": "2.6",
+      "summary": "Your website at a glance: Lighthouse scores and Core Web Vitals, a check of the page itself, and from Google Search Console the clicks, impressions, position and top search terms. Needs your own Google sign-in and a free PageSpeed key.",
+      "publisher": "De Noronha Consulting",
+      "category": "Productivity",
+      "license": "MIT",
+      "icon": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/icons/seo.png",
+      "banner": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/screens/bar-seo.png",
+      "distribution": "bundled-with-deckhand",
+      "requires": {
+        "wifiAdb": true
+      },
+      "source": "https://github.com/DeNoronha/UltraWorkspaceMac/tree/main/UltraWorkspaceMac/android/DeckhandMonitor",
+      "homepage": "https://denoronha.github.io/UltraWorkspaceMac/bar-apps/"
+    },
+    {
       "id": "nl.denoronha.deckhand.strava",
       "kind": "bar-app",
       "name": "Training",
