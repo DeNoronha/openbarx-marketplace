@@ -311,6 +311,24 @@
       "homepage": "https://denoronha.github.io/UltraWorkspaceMac/bar-apps/"
     },
     {
+      "id": "nl.denoronha.deckhand.portfolio",
+      "kind": "bar-app",
+      "name": "Portfolio",
+      "version": "2.6",
+      "summary": "Your Kraken account at a glance: value, change and line over a day, week, month or year, and per coin the price, value and change, with the market's 24-hour high and low, VWAP, volume and spread. Needs a read-only Kraken key.",
+      "publisher": "De Noronha Consulting",
+      "category": "Finance",
+      "license": "MIT",
+      "icon": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/icons/portfolio.png",
+      "banner": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/screens/bar-portfolio.png",
+      "distribution": "bundled-with-deckhand",
+      "requires": {
+        "wifiAdb": true
+      },
+      "source": "https://github.com/DeNoronha/UltraWorkspaceMac/tree/main/UltraWorkspaceMac/android/DeckhandMonitor",
+      "homepage": "https://denoronha.github.io/UltraWorkspaceMac/bar-apps/"
+    },
+    {
       "id": "nl.denoronha.deckhand.strava",
       "kind": "bar-app",
       "name": "Training",
