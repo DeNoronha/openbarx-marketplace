@@ -365,6 +365,24 @@
       "homepage": "https://denoronha.github.io/UltraWorkspaceMac/bar-apps/"
     },
     {
+      "id": "nl.denoronha.deckhand.jira",
+      "kind": "bar-app",
+      "name": "Jira Board",
+      "version": "2.6",
+      "summary": "A Jira board on the bar: each column with its number of cards and the top cards, yours highlighted; tap a column for more. Reads only, with your e-mail and an Atlassian API token kept in the Mac's Keychain.",
+      "publisher": "De Noronha Consulting",
+      "category": "Productivity",
+      "license": "MIT",
+      "icon": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/icons/jira.png",
+      "banner": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/screens/bar-jira.png",
+      "distribution": "bundled-with-deckhand",
+      "requires": {
+        "wifiAdb": true
+      },
+      "source": "https://github.com/DeNoronha/UltraWorkspaceMac/tree/main/UltraWorkspaceMac/android/DeckhandMonitor",
+      "homepage": "https://denoronha.github.io/UltraWorkspaceMac/bar-apps/"
+    },
+    {
       "id": "nl.denoronha.deckhand.strava",
       "kind": "bar-app",
       "name": "Training",
