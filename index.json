@@ -1,7 +1,7 @@
 {
   "format": 1,
   "name": "OpenBarX marketplace",
-  "updated": "2026-11-15",
+  "updated": "2026-11-17",
   "description": "One index of widgets, bar apps and hotkey packs for the Sanytron UltraBar X, shared by every client.",
   "items": [
     {
@@ -13,14 +13,14 @@
       "publisher": "De Noronha Consulting",
       "category": "Productivity",
       "license": "MIT",
-      "icon": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/icons/monitor.png",
-      "banner": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/screens/bar-monitor.png",
+      "icon": "https://openbarx.com/assets/img/icons/monitor.png",
+      "banner": "https://openbarx.com/assets/img/screens/bar-monitor.png",
       "distribution": "bundled-with-deckhand",
       "requires": {
         "wifiAdb": true
       },
       "source": "https://github.com/DeNoronha/UltraWorkspaceMac/tree/main/UltraWorkspaceMac/android/DeckhandMonitor",
-      "homepage": "https://denoronha.github.io/UltraWorkspaceMac/bar-apps/"
+      "homepage": "https://openbarx.com/bar-apps/"
     },
     {
       "id": "nl.denoronha.deckhand.claude",
@@ -31,14 +31,14 @@
       "publisher": "De Noronha Consulting",
       "category": "Development",
       "license": "MIT",
-      "icon": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/icons/claude.png",
-      "banner": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/screens/bar-claude.png",
+      "icon": "https://openbarx.com/assets/img/icons/claude.png",
+      "banner": "https://openbarx.com/assets/img/screens/bar-claude.png",
       "distribution": "bundled-with-deckhand",
       "requires": {
         "wifiAdb": true
       },
       "source": "https://github.com/DeNoronha/UltraWorkspaceMac/tree/main/UltraWorkspaceMac/android/DeckhandMonitor",
-      "homepage": "https://denoronha.github.io/UltraWorkspaceMac/bar-apps/"
+      "homepage": "https://openbarx.com/bar-apps/"
     },
     {
       "id": "nl.denoronha.deckhand.crypto",
@@ -49,14 +49,14 @@
       "publisher": "De Noronha Consulting",
       "category": "Finance",
       "license": "MIT",
-      "icon": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/icons/crypto.png",
-      "banner": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/screens/bar-crypto.png",
+      "icon": "https://openbarx.com/assets/img/icons/crypto.png",
+      "banner": "https://openbarx.com/assets/img/screens/bar-crypto.png",
       "distribution": "bundled-with-deckhand",
       "requires": {
         "wifiAdb": true
       },
       "source": "https://github.com/DeNoronha/UltraWorkspaceMac/tree/main/UltraWorkspaceMac/android/DeckhandMonitor",
-      "homepage": "https://denoronha.github.io/UltraWorkspaceMac/bar-apps/"
+      "homepage": "https://openbarx.com/bar-apps/"
     },
     {
       "id": "nl.denoronha.deckhand.weather",
@@ -67,14 +67,14 @@
       "publisher": "De Noronha Consulting",
       "category": "Weather",
       "license": "MIT",
-      "icon": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/icons/weather.png",
-      "banner": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/screens/bar-weather.png",
+      "icon": "https://openbarx.com/assets/img/icons/weather.png",
+      "banner": "https://openbarx.com/assets/img/screens/bar-weather.png",
       "distribution": "bundled-with-deckhand",
       "requires": {
         "wifiAdb": true
       },
       "source": "https://github.com/DeNoronha/UltraWorkspaceMac/tree/main/UltraWorkspaceMac/android/DeckhandMonitor",
-      "homepage": "https://denoronha.github.io/UltraWorkspaceMac/bar-apps/"
+      "homepage": "https://openbarx.com/bar-apps/"
     },
     {
       "id": "nl.denoronha.deckhand.music",
@@ -85,14 +85,14 @@
       "publisher": "De Noronha Consulting",
       "category": "Music",
       "license": "MIT",
-      "icon": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/icons/music.png",
-      "banner": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/screens/bar-music.png",
+      "icon": "https://openbarx.com/assets/img/icons/music.png",
+      "banner": "https://openbarx.com/assets/img/screens/bar-music.png",
       "distribution": "bundled-with-deckhand",
       "requires": {
         "wifiAdb": true
       },
       "source": "https://github.com/DeNoronha/UltraWorkspaceMac/tree/main/UltraWorkspaceMac/android/DeckhandMonitor",
-      "homepage": "https://denoronha.github.io/UltraWorkspaceMac/bar-apps/"
+      "homepage": "https://openbarx.com/bar-apps/"
     },
     {
       "id": "nl.denoronha.deckhand.calendar",
@@ -103,14 +103,14 @@
       "publisher": "De Noronha Consulting",
       "category": "Productivity",
       "license": "MIT",
-      "icon": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/icons/calendar.png",
-      "banner": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/screens/bar-calendar.png",
+      "icon": "https://openbarx.com/assets/img/icons/calendar.png",
+      "banner": "https://openbarx.com/assets/img/screens/bar-calendar.png",
       "distribution": "bundled-with-deckhand",
       "requires": {
         "wifiAdb": true
       },
       "source": "https://github.com/DeNoronha/UltraWorkspaceMac/tree/main/UltraWorkspaceMac/android/DeckhandMonitor",
-      "homepage": "https://denoronha.github.io/UltraWorkspaceMac/bar-apps/"
+      "homepage": "https://openbarx.com/bar-apps/"
     },
     {
       "id": "nl.denoronha.deckhand.flights",
@@ -121,14 +121,14 @@
       "publisher": "De Noronha Consulting",
       "category": "Travel",
       "license": "MIT",
-      "icon": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/icons/flights.png",
-      "banner": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/screens/bar-flights.png",
+      "icon": "https://openbarx.com/assets/img/icons/flights.png",
+      "banner": "https://openbarx.com/assets/img/screens/bar-flights.png",
       "distribution": "bundled-with-deckhand",
       "requires": {
         "wifiAdb": true
       },
       "source": "https://github.com/DeNoronha/UltraWorkspaceMac/tree/main/UltraWorkspaceMac/android/DeckhandMonitor",
-      "homepage": "https://denoronha.github.io/UltraWorkspaceMac/bar-apps/"
+      "homepage": "https://openbarx.com/bar-apps/"
     },
     {
       "id": "nl.denoronha.deckhand.sky",
@@ -139,14 +139,14 @@
       "publisher": "De Noronha Consulting",
       "category": "Science",
       "license": "MIT",
-      "icon": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/icons/sky.png",
-      "banner": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/screens/bar-sky.png",
+      "icon": "https://openbarx.com/assets/img/icons/sky.png",
+      "banner": "https://openbarx.com/assets/img/screens/bar-sky.png",
       "distribution": "bundled-with-deckhand",
       "requires": {
         "wifiAdb": true
       },
       "source": "https://github.com/DeNoronha/UltraWorkspaceMac/tree/main/UltraWorkspaceMac/android/DeckhandMonitor",
-      "homepage": "https://denoronha.github.io/UltraWorkspaceMac/bar-apps/"
+      "homepage": "https://openbarx.com/bar-apps/"
     },
     {
       "id": "nl.denoronha.deckhand.news",
@@ -157,14 +157,14 @@
       "publisher": "De Noronha Consulting",
       "category": "News",
       "license": "MIT",
-      "icon": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/icons/news.png",
-      "banner": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/screens/bar-news.png",
+      "icon": "https://openbarx.com/assets/img/icons/news.png",
+      "banner": "https://openbarx.com/assets/img/screens/bar-news.png",
       "distribution": "bundled-with-deckhand",
       "requires": {
         "wifiAdb": true
       },
       "source": "https://github.com/DeNoronha/UltraWorkspaceMac/tree/main/UltraWorkspaceMac/android/DeckhandMonitor",
-      "homepage": "https://denoronha.github.io/UltraWorkspaceMac/bar-apps/"
+      "homepage": "https://openbarx.com/bar-apps/"
     },
     {
       "id": "nl.denoronha.deckhand.verse",
@@ -175,14 +175,14 @@
       "publisher": "De Noronha Consulting",
       "category": "Lifestyle",
       "license": "MIT",
-      "icon": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/icons/verse.png",
-      "banner": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/screens/bar-verse.png",
+      "icon": "https://openbarx.com/assets/img/icons/verse.png",
+      "banner": "https://openbarx.com/assets/img/screens/bar-verse.png",
       "distribution": "bundled-with-deckhand",
       "requires": {
         "wifiAdb": true
       },
       "source": "https://github.com/DeNoronha/UltraWorkspaceMac/tree/main/UltraWorkspaceMac/android/DeckhandMonitor",
-      "homepage": "https://denoronha.github.io/UltraWorkspaceMac/bar-apps/"
+      "homepage": "https://openbarx.com/bar-apps/"
     },
     {
       "id": "nl.denoronha.deckhand.tasks",
@@ -193,14 +193,14 @@
       "publisher": "De Noronha Consulting",
       "category": "Productivity",
       "license": "MIT",
-      "icon": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/icons/tasks.png",
-      "banner": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/screens/bar-tasks.png",
+      "icon": "https://openbarx.com/assets/img/icons/tasks.png",
+      "banner": "https://openbarx.com/assets/img/screens/bar-tasks.png",
       "distribution": "bundled-with-deckhand",
       "requires": {
         "wifiAdb": true
       },
       "source": "https://github.com/DeNoronha/UltraWorkspaceMac/tree/main/UltraWorkspaceMac/android/DeckhandMonitor",
-      "homepage": "https://denoronha.github.io/UltraWorkspaceMac/bar-apps/"
+      "homepage": "https://openbarx.com/bar-apps/"
     },
     {
       "id": "nl.denoronha.deckhand.haven",
@@ -211,14 +211,14 @@
       "publisher": "De Noronha Consulting",
       "category": "Travel",
       "license": "MIT",
-      "icon": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/icons/haven.png",
-      "banner": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/screens/bar-haven.png",
+      "icon": "https://openbarx.com/assets/img/icons/haven.png",
+      "banner": "https://openbarx.com/assets/img/screens/bar-haven.png",
       "distribution": "bundled-with-deckhand",
       "requires": {
         "wifiAdb": true
       },
       "source": "https://github.com/DeNoronha/UltraWorkspaceMac/tree/main/UltraWorkspaceMac/android/DeckhandMonitor",
-      "homepage": "https://denoronha.github.io/UltraWorkspaceMac/bar-apps/"
+      "homepage": "https://openbarx.com/bar-apps/"
     },
     {
       "id": "nl.denoronha.deckhand.tide",
@@ -229,14 +229,14 @@
       "publisher": "De Noronha Consulting",
       "category": "Science",
       "license": "MIT",
-      "icon": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/icons/tide.png",
-      "banner": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/screens/bar-tide.png",
+      "icon": "https://openbarx.com/assets/img/icons/tide.png",
+      "banner": "https://openbarx.com/assets/img/screens/bar-tide.png",
       "distribution": "bundled-with-deckhand",
       "requires": {
         "wifiAdb": true
       },
       "source": "https://github.com/DeNoronha/UltraWorkspaceMac/tree/main/UltraWorkspaceMac/android/DeckhandMonitor",
-      "homepage": "https://denoronha.github.io/UltraWorkspaceMac/bar-apps/"
+      "homepage": "https://openbarx.com/bar-apps/"
     },
     {
       "id": "nl.denoronha.deckhand.schiphol",
@@ -247,14 +247,14 @@
       "publisher": "De Noronha Consulting",
       "category": "Travel",
       "license": "MIT",
-      "icon": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/icons/schiphol.png",
-      "banner": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/screens/bar-schiphol.png",
+      "icon": "https://openbarx.com/assets/img/icons/schiphol.png",
+      "banner": "https://openbarx.com/assets/img/screens/bar-schiphol.png",
       "distribution": "bundled-with-deckhand",
       "requires": {
         "wifiAdb": true
       },
       "source": "https://github.com/DeNoronha/UltraWorkspaceMac/tree/main/UltraWorkspaceMac/android/DeckhandMonitor",
-      "homepage": "https://denoronha.github.io/UltraWorkspaceMac/bar-apps/"
+      "homepage": "https://openbarx.com/bar-apps/"
     },
     {
       "id": "nl.denoronha.deckhand.teletekst",
@@ -265,14 +265,14 @@
       "publisher": "De Noronha Consulting",
       "category": "News",
       "license": "MIT",
-      "icon": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/icons/teletekst.png",
-      "banner": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/screens/bar-teletekst.png",
+      "icon": "https://openbarx.com/assets/img/icons/teletekst.png",
+      "banner": "https://openbarx.com/assets/img/screens/bar-teletekst.png",
       "distribution": "bundled-with-deckhand",
       "requires": {
         "wifiAdb": true
       },
       "source": "https://github.com/DeNoronha/UltraWorkspaceMac/tree/main/UltraWorkspaceMac/android/DeckhandMonitor",
-      "homepage": "https://denoronha.github.io/UltraWorkspaceMac/bar-apps/"
+      "homepage": "https://openbarx.com/bar-apps/"
     },
     {
       "id": "nl.denoronha.deckhand.earth",
@@ -283,14 +283,14 @@
       "publisher": "De Noronha Consulting",
       "category": "Science",
       "license": "MIT",
-      "icon": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/icons/earth.png",
-      "banner": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/screens/bar-earth.png",
+      "icon": "https://openbarx.com/assets/img/icons/earth.png",
+      "banner": "https://openbarx.com/assets/img/screens/bar-earth.png",
       "distribution": "bundled-with-deckhand",
       "requires": {
         "wifiAdb": true
       },
       "source": "https://github.com/DeNoronha/UltraWorkspaceMac/tree/main/UltraWorkspaceMac/android/DeckhandMonitor",
-      "homepage": "https://denoronha.github.io/UltraWorkspaceMac/bar-apps/"
+      "homepage": "https://openbarx.com/bar-apps/"
     },
     {
       "id": "nl.denoronha.deckhand.seo",
@@ -301,14 +301,14 @@
       "publisher": "De Noronha Consulting",
       "category": "Productivity",
       "license": "MIT",
-      "icon": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/icons/seo.png",
-      "banner": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/screens/bar-seo.png",
+      "icon": "https://openbarx.com/assets/img/icons/seo.png",
+      "banner": "https://openbarx.com/assets/img/screens/bar-seo.png",
       "distribution": "bundled-with-deckhand",
       "requires": {
         "wifiAdb": true
       },
       "source": "https://github.com/DeNoronha/UltraWorkspaceMac/tree/main/UltraWorkspaceMac/android/DeckhandMonitor",
-      "homepage": "https://denoronha.github.io/UltraWorkspaceMac/bar-apps/"
+      "homepage": "https://openbarx.com/bar-apps/"
     },
     {
       "id": "nl.denoronha.deckhand.portfolio",
@@ -319,14 +319,14 @@
       "publisher": "De Noronha Consulting",
       "category": "Finance",
       "license": "MIT",
-      "icon": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/icons/portfolio.png",
-      "banner": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/screens/bar-portfolio.png",
+      "icon": "https://openbarx.com/assets/img/icons/portfolio.png",
+      "banner": "https://openbarx.com/assets/img/screens/bar-portfolio.png",
       "distribution": "bundled-with-deckhand",
       "requires": {
         "wifiAdb": true
       },
       "source": "https://github.com/DeNoronha/UltraWorkspaceMac/tree/main/UltraWorkspaceMac/android/DeckhandMonitor",
-      "homepage": "https://denoronha.github.io/UltraWorkspaceMac/bar-apps/"
+      "homepage": "https://openbarx.com/bar-apps/"
     },
     {
       "id": "nl.denoronha.deckhand.status",
@@ -337,14 +337,14 @@
       "publisher": "De Noronha Consulting",
       "category": "Development",
       "license": "MIT",
-      "icon": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/icons/status.png",
-      "banner": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/screens/bar-status.png",
+      "icon": "https://openbarx.com/assets/img/icons/status.png",
+      "banner": "https://openbarx.com/assets/img/screens/bar-status.png",
       "distribution": "bundled-with-deckhand",
       "requires": {
         "wifiAdb": true
       },
       "source": "https://github.com/DeNoronha/UltraWorkspaceMac/tree/main/UltraWorkspaceMac/android/DeckhandMonitor",
-      "homepage": "https://denoronha.github.io/UltraWorkspaceMac/bar-apps/"
+      "homepage": "https://openbarx.com/bar-apps/"
     },
     {
       "id": "nl.denoronha.deckhand.actions",
@@ -355,14 +355,14 @@
       "publisher": "De Noronha Consulting",
       "category": "Development",
       "license": "MIT",
-      "icon": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/icons/actions.png",
-      "banner": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/screens/bar-actions.png",
+      "icon": "https://openbarx.com/assets/img/icons/actions.png",
+      "banner": "https://openbarx.com/assets/img/screens/bar-actions.png",
       "distribution": "bundled-with-deckhand",
       "requires": {
         "wifiAdb": true
       },
       "source": "https://github.com/DeNoronha/UltraWorkspaceMac/tree/main/UltraWorkspaceMac/android/DeckhandMonitor",
-      "homepage": "https://denoronha.github.io/UltraWorkspaceMac/bar-apps/"
+      "homepage": "https://openbarx.com/bar-apps/"
     },
     {
       "id": "nl.denoronha.deckhand.jira",
@@ -373,14 +373,14 @@
       "publisher": "De Noronha Consulting",
       "category": "Productivity",
       "license": "MIT",
-      "icon": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/icons/jira.png",
-      "banner": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/screens/bar-jira.png",
+      "icon": "https://openbarx.com/assets/img/icons/jira.png",
+      "banner": "https://openbarx.com/assets/img/screens/bar-jira.png",
       "distribution": "bundled-with-deckhand",
       "requires": {
         "wifiAdb": true
       },
       "source": "https://github.com/DeNoronha/UltraWorkspaceMac/tree/main/UltraWorkspaceMac/android/DeckhandMonitor",
-      "homepage": "https://denoronha.github.io/UltraWorkspaceMac/bar-apps/"
+      "homepage": "https://openbarx.com/bar-apps/"
     },
     {
       "id": "nl.denoronha.deckhand.strava",
@@ -391,14 +391,14 @@
       "publisher": "De Noronha Consulting",
       "category": "Lifestyle",
       "license": "MIT",
-      "icon": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/icons/strava.png",
-      "banner": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/screens/bar-strava.png",
+      "icon": "https://openbarx.com/assets/img/icons/strava.png",
+      "banner": "https://openbarx.com/assets/img/screens/bar-strava.png",
       "distribution": "bundled-with-deckhand",
       "requires": {
         "wifiAdb": true
       },
       "source": "https://github.com/DeNoronha/UltraWorkspaceMac/tree/main/UltraWorkspaceMac/android/DeckhandMonitor",
-      "homepage": "https://denoronha.github.io/UltraWorkspaceMac/bar-apps/"
+      "homepage": "https://openbarx.com/bar-apps/"
     },
     {
       "id": "nl.denoronha.deckhand.cask",
@@ -409,14 +409,140 @@
       "publisher": "De Noronha Consulting",
       "category": "Finance",
       "license": "MIT",
-      "icon": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/icons/cask.png",
-      "banner": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/screens/bar-cask.png",
+      "icon": "https://openbarx.com/assets/img/icons/cask.png",
+      "banner": "https://openbarx.com/assets/img/screens/bar-cask.png",
       "distribution": "bundled-with-deckhand",
       "requires": {
         "wifiAdb": true
       },
       "source": "https://github.com/DeNoronha/UltraWorkspaceMac/tree/main/UltraWorkspaceMac/android/DeckhandMonitor",
-      "homepage": "https://denoronha.github.io/UltraWorkspaceMac/bar-apps/"
+      "homepage": "https://openbarx.com/bar-apps/"
+    },
+    {
+      "id": "nl.denoronha.deckhand.climate",
+      "kind": "bar-app",
+      "name": "Climate",
+      "version": "2.6",
+      "summary": "Your tado heating and Netatmo weather station: inside, outside and the last 24 hours, and taps to heat the house to 19–22 °C for a while or until the schedule. Sign-ins stay in the Mac's Keychain.",
+      "publisher": "De Noronha Consulting",
+      "category": "Home",
+      "license": "MIT",
+      "icon": "https://openbarx.com/assets/img/icons/climate.png",
+      "banner": "https://openbarx.com/assets/img/screens/bar-climate.png",
+      "distribution": "bundled-with-deckhand",
+      "requires": {
+        "wifiAdb": true
+      },
+      "source": "https://github.com/DeNoronha/UltraWorkspaceMac/tree/main/UltraWorkspaceMac/android/DeckhandMonitor",
+      "homepage": "https://openbarx.com/bar-apps/"
+    },
+    {
+      "id": "nl.denoronha.deckhand.books",
+      "kind": "bar-app",
+      "name": "Books",
+      "version": "2.6",
+      "summary": "Your e-Boekhouden administration: bank accounts, debtors and creditors, revenue per month against last year and the profit so far. Reads only, with an API token kept in the Mac's Keychain.",
+      "publisher": "De Noronha Consulting",
+      "category": "Productivity",
+      "license": "MIT",
+      "icon": "https://openbarx.com/assets/img/icons/books.png",
+      "banner": "https://openbarx.com/assets/img/screens/bar-books.png",
+      "distribution": "bundled-with-deckhand",
+      "requires": {
+        "wifiAdb": true
+      },
+      "source": "https://github.com/DeNoronha/UltraWorkspaceMac/tree/main/UltraWorkspaceMac/android/DeckhandMonitor",
+      "homepage": "https://openbarx.com/bar-apps/"
+    },
+    {
+      "id": "nl.denoronha.deckhand.traffic",
+      "kind": "bar-app",
+      "name": "Traffic",
+      "version": "2.6",
+      "summary": "Your Mac's network traffic, in the spirit of Sniffnet: the rate in and out and the hosts, services and apps that use the most. No packet capture, no administrator rights.",
+      "publisher": "De Noronha Consulting",
+      "category": "Utilities",
+      "license": "MIT",
+      "icon": "https://openbarx.com/assets/img/icons/traffic.png",
+      "banner": "https://openbarx.com/assets/img/screens/bar-traffic.png",
+      "distribution": "bundled-with-deckhand",
+      "requires": {
+        "wifiAdb": true
+      },
+      "source": "https://github.com/DeNoronha/UltraWorkspaceMac/tree/main/UltraWorkspaceMac/android/DeckhandMonitor",
+      "homepage": "https://openbarx.com/bar-apps/"
+    },
+    {
+      "id": "nl.denoronha.deckhand.connection",
+      "kind": "bar-app",
+      "name": "Connection",
+      "version": "2.6",
+      "summary": "How your connection is doing, hop by hop from your Mac to the services you use, with a weather-style verdict on where a problem is, and your ASUS router or ZenWiFi mesh. No administrator rights, no packet capture.",
+      "publisher": "De Noronha Consulting",
+      "category": "Utilities",
+      "license": "MIT",
+      "icon": "https://openbarx.com/assets/img/icons/connection.png",
+      "banner": "https://openbarx.com/assets/img/screens/bar-connection.png",
+      "distribution": "bundled-with-deckhand",
+      "requires": {
+        "wifiAdb": true
+      },
+      "source": "https://github.com/DeNoronha/UltraWorkspaceMac/tree/main/UltraWorkspaceMac/android/DeckhandMonitor",
+      "homepage": "https://openbarx.com/bar-apps/"
+    },
+    {
+      "id": "nl.denoronha.deckhand.chess",
+      "kind": "bar-app",
+      "name": "Chess",
+      "version": "2.6",
+      "summary": "Your Chess.com games and ratings: the board of each daily game with the last move and the time left, your recent results with accuracy, your rating per time control with its trend, and the puzzle of the day to solve on the bar. Public data, no password.",
+      "publisher": "De Noronha Consulting",
+      "category": "Games",
+      "license": "MIT",
+      "icon": "https://openbarx.com/assets/img/icons/chess.png",
+      "banner": "https://openbarx.com/assets/img/screens/bar-chess.png",
+      "distribution": "bundled-with-deckhand",
+      "requires": {
+        "wifiAdb": true
+      },
+      "source": "https://github.com/DeNoronha/UltraWorkspaceMac/tree/main/UltraWorkspaceMac/android/DeckhandMonitor",
+      "homepage": "https://openbarx.com/bar-apps/"
+    },
+    {
+      "id": "nl.denoronha.deckhand.teams",
+      "kind": "bar-app",
+      "name": "Teams",
+      "version": "2.6",
+      "summary": "Your next meetings with a countdown and a Join button, and a speed dial for the people you call most. Teams, Zoom and Google Meet open on your Mac; the meetings come from your Mac's calendars.",
+      "publisher": "De Noronha Consulting",
+      "category": "Productivity",
+      "license": "MIT",
+      "icon": "https://openbarx.com/assets/img/icons/teams.png",
+      "banner": "https://openbarx.com/assets/img/screens/bar-teams.png",
+      "distribution": "bundled-with-deckhand",
+      "requires": {
+        "wifiAdb": true
+      },
+      "source": "https://github.com/DeNoronha/UltraWorkspaceMac/tree/main/UltraWorkspaceMac/android/DeckhandMonitor",
+      "homepage": "https://openbarx.com/bar-apps/"
+    },
+    {
+      "id": "nl.denoronha.deckhand.walk",
+      "kind": "bar-app",
+      "name": "Walk",
+      "version": "2.6",
+      "summary": "When the dog's next walk is due, fitted around your meetings and the rain: the best free moment today, whether it is dry, and Going now and Back home buttons that keep count. Reads your Mac's calendars (only when you are busy) and Open-Meteo.",
+      "publisher": "De Noronha Consulting",
+      "category": "Lifestyle",
+      "license": "MIT",
+      "icon": "https://openbarx.com/assets/img/icons/walk.png",
+      "banner": "https://openbarx.com/assets/img/screens/bar-walk.png",
+      "distribution": "bundled-with-deckhand",
+      "requires": {
+        "wifiAdb": true
+      },
+      "source": "https://github.com/DeNoronha/UltraWorkspaceMac/tree/main/UltraWorkspaceMac/android/DeckhandMonitor",
+      "homepage": "https://openbarx.com/bar-apps/"
     },
     {
       "id": "nl.denoronha.deckhand.home",
@@ -427,14 +553,14 @@
       "publisher": "De Noronha Consulting",
       "category": "Utilities",
       "license": "MIT",
-      "icon": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/icons/home.png",
-      "banner": "https://denoronha.github.io/UltraWorkspaceMac/assets/img/screens/bar-home.png",
+      "icon": "https://openbarx.com/assets/img/icons/home.png",
+      "banner": "https://openbarx.com/assets/img/screens/bar-home.png",
       "distribution": "bundled-with-deckhand",
       "requires": {
         "wifiAdb": true
       },
       "source": "https://github.com/DeNoronha/UltraWorkspaceMac/tree/main/UltraWorkspaceMac/android/DeckhandMonitor/home",
-      "homepage": "https://denoronha.github.io/UltraWorkspaceMac/manual/"
+      "homepage": "https://openbarx.com/manual/"
     },
     {
       "id": "nl.denoronha.deckhand.card.weather",
@@ -450,7 +576,7 @@
       ],
       "distribution": "bundled-with-deckhand",
       "source": "https://github.com/DeNoronha/UltraWorkspaceMac/tree/main/UltraWorkspaceMac/Sources/UltraWorkspaceApp/Widgets",
-      "homepage": "https://denoronha.github.io/UltraWorkspaceMac/manual/"
+      "homepage": "https://openbarx.com/manual/"
     },
     {
       "id": "nl.denoronha.deckhand.card.music",
@@ -466,7 +592,7 @@
       ],
       "distribution": "bundled-with-deckhand",
       "source": "https://github.com/DeNoronha/UltraWorkspaceMac/tree/main/UltraWorkspaceMac/Sources/UltraWorkspaceApp/Widgets",
-      "homepage": "https://denoronha.github.io/UltraWorkspaceMac/manual/"
+      "homepage": "https://openbarx.com/manual/"
     },
     {
       "id": "nl.denoronha.deckhand.card.claude",
@@ -482,7 +608,7 @@
       ],
       "distribution": "bundled-with-deckhand",
       "source": "https://github.com/DeNoronha/UltraWorkspaceMac/tree/main/UltraWorkspaceMac/Sources/UltraWorkspaceApp/Widgets",
-      "homepage": "https://denoronha.github.io/UltraWorkspaceMac/manual/"
+      "homepage": "https://openbarx.com/manual/"
     },
     {
       "id": "nl.denoronha.deckhand.card.crypto",
@@ -498,7 +624,7 @@
       ],
       "distribution": "bundled-with-deckhand",
       "source": "https://github.com/DeNoronha/UltraWorkspaceMac/tree/main/UltraWorkspaceMac/Sources/UltraWorkspaceApp/Widgets",
-      "homepage": "https://denoronha.github.io/UltraWorkspaceMac/manual/"
+      "homepage": "https://openbarx.com/manual/"
     },
     {
       "id": "nl.denoronha.deckhand.card.calendar",
@@ -514,7 +640,7 @@
       ],
       "distribution": "bundled-with-deckhand",
       "source": "https://github.com/DeNoronha/UltraWorkspaceMac/tree/main/UltraWorkspaceMac/Sources/UltraWorkspaceApp/Widgets",
-      "homepage": "https://denoronha.github.io/UltraWorkspaceMac/manual/"
+      "homepage": "https://openbarx.com/manual/"
     },
     {
       "id": "nl.denoronha.deckhand.card.date",
@@ -530,7 +656,7 @@
       ],
       "distribution": "bundled-with-deckhand",
       "source": "https://github.com/DeNoronha/UltraWorkspaceMac/tree/main/UltraWorkspaceMac/Sources/UltraWorkspaceApp/Widgets",
-      "homepage": "https://denoronha.github.io/UltraWorkspaceMac/manual/"
+      "homepage": "https://openbarx.com/manual/"
     },
     {
       "id": "nl.denoronha.deckhand.card.picture",
@@ -546,7 +672,7 @@
       ],
       "distribution": "bundled-with-deckhand",
       "source": "https://github.com/DeNoronha/UltraWorkspaceMac/tree/main/UltraWorkspaceMac/Sources/UltraWorkspaceApp/Widgets",
-      "homepage": "https://denoronha.github.io/UltraWorkspaceMac/manual/"
+      "homepage": "https://openbarx.com/manual/"
     },
     {
       "id": "com.sanytron.plugin.zG0pN6aV1pF6yM5uX2qV0cH1cC0aK5gJ",
